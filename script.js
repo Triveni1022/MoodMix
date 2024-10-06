@@ -128,7 +128,7 @@ async function main() {
 
 
     //get list of songs
-   
+
     await getSongs("songs/ncs")
     playMusic(songs[0], true)
 
